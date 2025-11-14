@@ -40,3 +40,36 @@ Gained practical exposure to agent creation using ADK and learned the basics of 
 
 ---
 
+#### Day 2 – Agent Tools & Model Context Protocol (MCP)
+
+**Focus:**  
+Day 2 focuses on extending agent capabilities using **tools** and enabling interoperability through the **Model Context Protocol (MCP)**. You also work with long-running operations and learn best practices for designing reliable and safe tools.
+
+---
+
+## 🔧 Agent Tools – Key Concepts
+- Tools enable agents to **take actions or access data beyond their training**.
+- Python functions can be turned into **callable agent actions**.
+- Well-designed tools should be:
+  - **Safe** – validate all inputs  
+  - **Deterministic** – predictable, consistent outputs  
+  - **Idempotent** – safe to retry  
+  - **Purpose-specific** – minimal and clear functionality  
+
+---
+
+## 🔗 Model Context Protocol (MCP)
+MCP provides a standardized way for agents, tools, and external systems to communicate.
+
+### MCP Architecture
+- **Server** – exposes tools or resources  
+- **Client** – agent consuming tools  
+- **Transport Layer** – JSON-RPC / WebSockets  
+
+### Why MCP Matters
+- Ensures **interoperability** across tools and agent frameworks  
+- Scales well for **enterprise environments**  
+- Establishes a consistent interaction model for multi-agent systems  
+
+---
+
