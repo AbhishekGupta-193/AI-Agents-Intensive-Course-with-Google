@@ -68,7 +68,7 @@ MCP provides a standardized way for agents, tools, and external systems to commu
 
 ### Day 3 – Context Engineering: Sessions & Memory
 
-**Focus**
+**Focus:**
 Day 3 dives into **context engineering**, focusing on how agents manage information across turns (Sessions) and across conversations (Memory). You learn how to build stateful, coherent, and personalized agents using ADK.
 
 **Context Engineering**
@@ -104,7 +104,7 @@ Day 3 dives into **context engineering**, focusing on how agents manage informat
 
 ### Day 4 – Agent Quality & Evaluation Framework
 
-**Focus**
+**Focus:**
 Day 4 focuses on ensuring **quality, reliability, and transparency** in AI agents. It introduces a complete evaluation framework built on observability and scalable assessment methods such as LLM-as-a-Judge and Human-in-the-Loop (HITL) evaluation.
 
 **Observability: The Foundation of Agent Quality**
@@ -120,7 +120,7 @@ Observability enables deep insight into how and why an agent makes decisions. It
 - Shows relationships between actions  
 - Helps visualize the end-to-end decision-making pipeline  
 
-### 🔹 **Metrics — *“The Health Report”***
+**Metrics — *“The Health Report”***
 - Tracks quantitative signals such as:
   - Latency  
   - Error rates  
