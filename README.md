@@ -66,3 +66,40 @@ MCP provides a standardized way for agents, tools, and external systems to commu
 
 ---
 
+### Day 3 – Context Engineering: Sessions & Memory
+
+**Focus**
+Day 3 dives into **context engineering**, focusing on how agents manage information across turns (Sessions) and across conversations (Memory). You learn how to build stateful, coherent, and personalized agents using ADK.
+
+**Context Engineering**
+- Dynamically assembling relevant information for the LLM.
+- Using **context compaction** to fit essential details within the context window.
+- Enables personalized, multi-turn interactions.
+
+**Sessions**
+- Represents the **active conversation container**.
+- Stores:
+  - User messages  
+  - Agent responses  
+  - Events and intermediate reasoning  
+- Enables coherent multi-turn conversations.
+
+**Memory**
+- Long-term persistence beyond a single session.
+- Allows agents to recall:
+  - User preferences  
+  - Previous tasks  
+  - Historical interactions  
+
+
+**Core Learnings**
+- **Context Engineering** fundamentals  
+- Maintaining conversation history using **Sessions & Events**  
+- Using **Persistent Storage** for long-term recall  
+- Managing **Session State** via structured fields  
+- Understanding manual state handling (pros/cons)  
+- Preparing for real-world production constraints  
+
+---
+
+
