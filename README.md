@@ -148,5 +148,26 @@ Observability enables deep insight into how and why an agent makes decisions. It
   - Quality assurance before deployment  
 
 ---
+### Day 5 – Prototype to Production
+
+**Focus:**
+Day 5 focuses on transitioning AI agents from **local prototypes** to **production-ready, scalable systems**. The whitepaper outlines deployment strategies, operational best practices, and the challenges of running agentic systems at enterprise scale. A major focus is the **Agent2Agent (A2A) Protocol**, enabling multi-agent collaboration.
+
+
+**Agent2Agent (A2A) Protocol**
+
+**What A2A Enables**
+- Multiple agents can:
+  - Communicate  
+  - Delegate tasks  
+  - Coordinate decisions  
+  - Share results  
+
+**Why A2A Matter**s
+- Supports modular, distributed agent systems  
+- Enables specialized agents working together  
+- Scales to enterprise workflows and complex pipelines  
+
+---
 
 
