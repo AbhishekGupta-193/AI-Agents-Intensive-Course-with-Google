@@ -102,4 +102,51 @@ Day 3 dives into **context engineering**, focusing on how agents manage informat
 
 ---
 
+### Day 4 – Agent Quality & Evaluation Framework
+
+**Focus**
+Day 4 focuses on ensuring **quality, reliability, and transparency** in AI agents. It introduces a complete evaluation framework built on observability and scalable assessment methods such as LLM-as-a-Judge and Human-in-the-Loop (HITL) evaluation.
+
+**Observability: The Foundation of Agent Quality**
+Observability enables deep insight into how and why an agent makes decisions. It relies on three key pillars:
+
+**Logs — *“The Diary”***
+- Records detailed event-by-event activity  
+- Captures prompts, tool calls, errors, and agent reasoning steps  
+- Essential for debugging and auditing  
+
+**Traces — *“The Narrative”***
+- Connects logs into a sequential workflow  
+- Shows relationships between actions  
+- Helps visualize the end-to-end decision-making pipeline  
+
+### 🔹 **Metrics — *“The Health Report”***
+- Tracks quantitative signals such as:
+  - Latency  
+  - Error rates  
+  - Tool success/failure  
+  - Token usage  
+- Useful for monitoring agent performance over time  
+
+**Evaluation Frameworks**
+
+**LLM-as-a-Judge**
+- Uses a large language model to **score or critique** agent responses  
+- Enables high-scale, automated evaluation  
+- Useful for measuring:
+  - Accuracy  
+  - Relevance  
+  - Safety  
+  - Tool usage quality  
+
+**Human-in-the-Loop (HITL)**
+- Human reviewers evaluate complex or high-stakes outputs  
+- Complements automated scoring methods  
+- Ideal for:
+  - Edge cases  
+  - Safety-sensitive scenarios  
+  - Quality assurance before deployment  
+
+---
+
 
